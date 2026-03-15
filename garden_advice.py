@@ -1,6 +1,6 @@
 def get_user_input():
-    season = "summer"      # TODO: Replace with input()
-    plant_type = "flower"  # TODO: Replace with input()
+    season = input("Enter the season (summer / winter): ").strip().lower()
+    plant_type = input("Enter the plant type (flower / vegetable): ").strip().lower()
     return season, plant_type
 
 def get_advice(season, plant_type):
